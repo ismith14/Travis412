@@ -7,6 +7,10 @@ import org.junit.*;
 
 public class SimpleCalculatorTest {
 	@Test	
+	public void testdivide() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.divide(8, 2), 4);
+	}
 	public void testadd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(2, 0), 2);
