@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class SimpleCalculatorTest {
-	@Test
-	public void testAdd() {
+	@Test	
+	public void testadd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(2, 0), 2);
 	}
@@ -17,6 +17,6 @@ public class SimpleCalculatorTest {
 	}
 	public void testmultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(8, 6), 24);
+		assertEquals(calc.multiply(4, 6), 24);
 	}
 }
