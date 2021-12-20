@@ -12,10 +12,9 @@ public class SimpleCalculator {
 	}
 	public int divide(int a, int b) {
 		try {
-		return a/b;
-		}
-		catch (ArithmeticException e) {
-			System.out.println("Cannot divide by zero.");
+			return a/b;
+		}catch (ArithmeticException e)
+		{
 			return 0;
 		}
 	}

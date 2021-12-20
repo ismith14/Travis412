@@ -7,9 +7,9 @@ import org.junit.*;
 
 public class SimpleCalculatorTest {
 	@Test	
-	public void testdivideby0() {
+	public void add3numbers() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divide(8, 0), 2);
+		assertEquals(calc.add(2, 0, 5), 7);
 	}
 	public void testdivide() {
 		SimpleCalculator calc = new SimpleCalculator();
